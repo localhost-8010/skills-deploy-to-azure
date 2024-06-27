@@ -5,9 +5,8 @@ on:
     types: [labeled]
 
 permissions:
-  contents: read
-  pages: write
   id-token: write
+  contents: read
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
